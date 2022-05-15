@@ -126,7 +126,177 @@ or
 https://drive.google.com/file/d/1zXJcNOxU9CtKV0bB7F4OU19Fv1t05ugk/view?usp=sharing
 
 
+day2:15-05-2022
+-----------------------
+OOPs features
+--------------------------
+1.Class
+2.Object
+3.Encapsulation
+4.Inheritance
+5.Polymorphism
+6.Abstraction
+7.Message Communication
 
+ 
+Object Programming
+----------------------------
+Object based Programing   : Object,Class,Encapsulation  : VB Script ,JavaScript 
+
+Object oriented Programing :
+
+
+
+class      (properties & behaviours/actions )         object  (properties & behaviours/actions )
+
+Animal                                                                dog,cat,horse                                  color,height                  sleep,eat
+Actor                                                                   Dharmendra,Amitabh                     name,age,address       dance,sing,fight,act
+Breakfast                                                            Idly,Puri,Poha                                 name,color,shape        taste
+Furniture                                                             Table,Chair,Cubboard                    color,shape,price         
+Device                                                                 Mobile,TV,Laptop                          color,company             switch on,switch off
+Flower                                                                 rose                                                color,shape                  smell 
+Singer                                                                 Lata,Rafi,Kishore                           name,age,address        sing 
+Company                         
+Employee
+Product
+
+
+class  <classname>
+{
+//properites
+datatype variable1;
+datatype variable1;
+datatype variable1;
+
+//behaviours
+returntype method1();
+returntype method1();
+returntype method1();
+returntype method1();
+}
+
+
+Object
+----------
+
+<classname>   objectname=new <classname>();
+
+objectname.variable1;
+objectname.variable2;
+objectname.variable3;
+objectname.variable4;
+
+objectname.method1;
+objectname.method1;
+objectname.method1;
+objectname.method1;
+
+
+1.Write a class Employee with below properties & methods and create a object and to set and display employee details;
+
+Employee
+        id
+        name
+        salary
+
+setter   //to set the values
+getter  //to read the values
+
+
+Java Premitive Datatypes
+-------------------------------------
+byte
+short
+int
+long
+
+float
+double
+
+char
+boolean
+
+
+java.lang.Object is the default super class for all the classes in Java.
+
+
+1. Student
+          id
+          name
+          marks
+           
+            //constructor
+           //setter && getter
+           //toString   
+
+2.Circle
+          radius
+
+           //constructor
+           //setter && getter
+           //toString   
+                       
+         area()
+         peri()  
+
+
+2.Rectangle
+          length
+          breadth
+        
+         //constructor
+           //setter && getter
+           //toString   
+                       
+         area()
+         peri()  
+
+3.Square
+          side
+        
+         //constructor
+           //setter && getter
+           //toString   
+                       
+         area()   4*4
+         peri()    4*side
+
+
+4.Traingle
+          
+           side1
+           side2
+           side3
+        
+         //constructor
+           //setter && getter
+           //toString   
+                       
+         area()   4*4
+         peri()    4*side
+
+
+5.Spehere
+          
+            radius
+          
+         //constructor
+           //setter && getter
+           //toString   
+                       
+          volume();
+
+6.cylinder
+          
+            radius
+            height
+          
+         //constructor
+           //setter && getter
+           //toString   
+                       
+          volume();
+         
 
 
 
